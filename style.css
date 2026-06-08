@@ -348,3 +348,102 @@ a {
   fill: #0f766e;
   font-weight: 700;
 }
+
+
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.status-card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  background: #f8fafc;
+}
+
+.status-card h3 {
+  margin-top: 0;
+}
+
+.status-direct {
+  border-top: 6px solid #16a34a;
+}
+
+.status-approx {
+  border-top: 6px solid #f59e0b;
+}
+
+.status-assessment {
+  border-top: 6px solid #dc2626;
+}
+
+.status-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  fill: #111827;
+  paint-order: stroke;
+  stroke: rgba(255,255,255,.95);
+  stroke-width: 4px;
+}
+
+.status-direct-text {
+  color: #166534;
+  font-weight: 700;
+}
+
+.status-approx-text {
+  color: #92400e;
+  font-weight: 700;
+}
+
+.status-assessment-text {
+  color: #991b1b;
+  font-weight: 700;
+}
+
+.modal-facts dt {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.modal-facts dd {
+  margin-left: 0;
+  color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .status-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.download-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 4px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  filter: brightness(0.95);
+}
+
+.download-button.secondary {
+  background: #334155;
+}

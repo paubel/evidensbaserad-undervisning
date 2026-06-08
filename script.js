@@ -69,6 +69,8 @@ function showInfoModal(d) {
       <dd>${d.type}</dd>
       <dt>Kommentar</dt>
       <dd>${d.note}</dd>
+      <dt>Status för värdet</dt>
+      <dd>${d.valueStatus || "Ej klassad"}<br>${d.valueStatusDetail || ""}</dd>
       <dt>Källa</dt>
       <dd>${d.source}</dd>
     </dl>
@@ -228,6 +230,7 @@ function renderChart() {
       class: d.info && d.tier <= 2 ? "label clickable-label" : "label"
     }, g);
     labelEl.textContent = label;
+
     if (d.info && d.tier <= 2) {
       labelEl.addEventListener("click", () => showInfoModal(d));
     }
@@ -243,7 +246,7 @@ function showTooltip(e, d) {
     <div>Studier: cirka ${d.studies}</div>
     <div>Typ: ${d.type}</div>
     <div>${d.note}</div>
-    <div>Källa: ${d.source}</div>
+    <div>Status: ${d.valueStatusShort || "Ej klassad"}</div><div>Källa: ${d.source}</div>
   `;
   tooltip.style.left = Math.min(e.clientX + 16, window.innerWidth - 340) + "px";
   tooltip.style.top = Math.min(e.clientY + 16, window.innerHeight - 170) + "px";
@@ -263,6 +266,7 @@ function renderTable() {
       <td>${d.tier}</td>
       <td>${d.studies}</td>
       <td>${d.type}</td>
+      <td>${d.valueStatusShort || ""}</td>
       <td>${d.note}</td>
       <td>${d.source}</td>
     `;
