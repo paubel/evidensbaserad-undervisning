@@ -515,5 +515,18 @@
     "valueStatus": "Mer direkt forskningsbaserat",
     "valueStatusShort": "Direkt/EEF/meta",
     "valueStatusDetail": "Värdet är relativt nära en publicerad forskningssammanställning, ofta EEF:s Toolkit eller en specifik metaanalys. För EEF-punkter är det dock ofta 'månader extra utveckling' som har omräknats ungefärligt till d/g."
+  },
+  {
+    "method": "MI / Motiverande samtal",
+    "d": 0.25,
+    "tier": 3,
+    "studies": 38,
+    "type": "Other",
+    "note": "Skolbaserad MI: metaanalys finns, men effekten på skolprestation är blandad; RCT-exempel visar ibland måttliga effekter.",
+    "source": "School-based MI meta-analysis; Strait et al. 2012; Terry et al. 2014; Strait et al. 2019",
+    "info": "Motiverande samtal är en samtalsmetod som försöker stärka elevens egen motivation till förändring genom öppna frågor, reflektioner och att eleven själv formulerar skäl till förändring. I skolan kan det användas för närvaro, studiebeteende, mål, studieteknik och motivation.",
+    "valueStatus": "Forskningsbaserat men uppskattat",
+    "valueStatusShort": "Uppskattat",
+    "valueStatusDetail": "Det finns skolbaserad MI-forskning och metaanalys, men grafens exakta d/g-värde är en försiktig syntes. Enskilda RCT-studier visar ibland högre effekter, men resultaten är blandade och kontextberoende."
   }
 ]
