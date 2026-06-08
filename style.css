@@ -447,3 +447,53 @@ a {
 .download-button.secondary {
   background: #334155;
 }
+
+
+.bubble-explanation {
+  margin: 16px 0 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.bubble-explanation p {
+  margin: 0 0 10px;
+}
+
+.bubble-demo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.bubble-demo span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bubble {
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #111827;
+  background: #ffffff;
+}
+
+.small-bubble {
+  width: 12px;
+  height: 12px;
+}
+
+.medium-bubble {
+  width: 20px;
+  height: 20px;
+}
+
+.large-bubble {
+  width: 30px;
+  height: 30px;
+}

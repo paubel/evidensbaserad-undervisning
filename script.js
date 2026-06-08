@@ -63,7 +63,7 @@ function showInfoModal(d) {
     <dl class="modal-facts">
       <dt>Ungefärlig effektstorlek</dt>
       <dd>d/g ≈ ${d.d.toFixed(2)}</dd>
-      <dt>Evidensnivå</dt>
+      <dt>Evidensstyrka för kausal tolkning</dt>
       <dd>Tier ${d.tier}</dd>
       <dt>Typ</dt>
       <dd>${d.type}</dd>
@@ -183,7 +183,7 @@ function renderChart() {
     y: 28,
     "text-anchor": "start",
     class: "y-axis-title-top"
-  }, g).textContent = "Evidensnivå, Slavin-inspirerad tier";
+  }, g).textContent = "Evidensstyrka för kausal tolkning";
 
   const positions = computePositions(chartData, y);
 
@@ -242,7 +242,7 @@ function showTooltip(e, d) {
   tooltip.innerHTML = `
     <strong>${d.method}</strong>
     <div>d/g ≈ ${d.d.toFixed(2)}</div>
-    <div>Tier: ${d.tier}</div>
+    <div>Tier: ${d.tier} – stöd för kausal tolkning</div>
     <div>Studier: cirka ${d.studies}</div>
     <div>Typ: ${d.type}</div>
     <div>${d.note}</div>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Evidenskarta över pedagogiska metoder</title>
-  <meta name="description" content="Responsiv evidenskarta över pedagogiska metoder, effektstorlekar och evidensnivåer.">
+  <meta name="description" content="Responsiv evidenskarta över pedagogiska metoder, effektstorlekar och evidensstyrka för kausal tolkninger.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
   <div class="container">
     <p class="eyebrow">Evidensbaserad undervisning</p>
     <h1>Evidenskarta över pedagogiska metoder</h1>
-    <p class="lead">En responsiv översikt som jämför ungefärlig effektstorlek med evidensnivå. Grafen är forskningsinformerad, men inte en exakt metaanalys.</p>
+    <p class="lead">En responsiv översikt som jämför ungefärlig effektstorlek med evidensstyrka för kausal tolkning. Grafen är forskningsinformerad, men inte en exakt metaanalys.</p>
   </div>
 </header>
 
@@ -33,6 +33,15 @@
       <svg id="evidenceChart" role="img" aria-labelledby="chartTitle chartDesc"></svg>
     </div>
     <div id="tooltip" class="tooltip" hidden></div>
+    <div class="bubble-explanation" aria-label="Förklaring av bubbelstorlek">
+      <p><strong>Bubbelstorlek:</strong> större cirkel/diamant betyder ungefär fler studier bakom området. Detta är inte exakt för alla metoder, utan en grov indikator på mängden forskning.</p>
+      <div class="bubble-demo">
+        <span><i class="bubble small-bubble"></i> färre studier</span>
+        <span><i class="bubble medium-bubble"></i> medel</span>
+        <span><i class="bubble large-bubble"></i> fler studier</span>
+      </div>
+    </div>
+
     <p class="download-row">
       <a class="download-button" href="evidence_map_data.csv" download>Ladda ned CSV-data</a>
       <a class="download-button secondary" href="data.json" download>Ladda ned JSON-data</a>
@@ -48,8 +57,9 @@
   <section class="grid">
     <article class="card">
       <h2>Så ska grafen läsas</h2>
-      <p>Grafen visar två saker samtidigt: dels ungefärlig effektstorlek på elevers lärande, dels hur stark den vetenskapliga evidensen är bakom metoden. X-axeln visar ungefärlig standardiserad effektstorlek, ungefär motsvarande Cohen’s d eller Hedges g. Y-axeln visar en Slavin-inspirerad evidensnivå, där Tier 1 innebär starkast stöd, till exempel metaanalyser av randomiserade kontrollerade studier, och Tier 6 innebär svagast stöd, till exempel expertåsikter, teori eller fallstudier.</p>
-      <p>Bakgrundsfärgerna visar de sex evidensnivåerna. Grönare fält betyder starkare kausal evidens, medan rödare fält betyder svagare evidens. Bubblornas storlek visar ungefär hur mycket forskning som finns bakom området. Diamantformade punkter markerar metoder från Science of Learning och kognitionspsykologi, till exempel retrieval practice, spacing, worked examples och cognitive load. Cirklar markerar bredare skolinterventioner, ofta hämtade från Education Endowment Foundation.</p>
+      <p><strong>Viktigt:</strong> Tier-nivån visar inte att metoden säkert är kausal. Den visar hur stark forskningsdesignen är för att kunna tolka sambandet kausalt.</p>
+      <p>Grafen visar två saker samtidigt: dels ungefärlig effektstorlek på elevers lärande, dels hur stark den vetenskapliga evidensen är bakom metoden. X-axeln visar ungefärlig standardiserad effektstorlek, ungefär motsvarande Cohen’s d eller Hedges g. Y-axeln visar en Slavin-inspirerad evidensstyrka för kausal tolkning, där Tier 1 innebär starkast stöd, till exempel metaanalyser av randomiserade kontrollerade studier, och Tier 6 innebär svagast stöd, till exempel expertåsikter, teori eller fallstudier.</p>
+      <p>Bakgrundsfärgerna visar de sex evidensstyrka för kausal tolkningerna. Grönare fält betyder starkare stöd för kausal tolkning, medan rödare fält betyder svagare evidens. Bubblornas storlek visar ungefär hur mycket forskning som finns bakom området. Diamantformade punkter markerar metoder från Science of Learning och kognitionspsykologi, till exempel retrieval practice, spacing, worked examples och cognitive load. Cirklar markerar bredare skolinterventioner, ofta hämtade från Education Endowment Foundation.</p>
     </article>
 
     <article class="card">
@@ -61,7 +71,7 @@
 
   <section class="card">
     <h2>Ärlig metodnotis: är alla värden direkt från forskning?</h2>
-    <p><strong>Nej. Alla värden i grafen är inte exakta värden direkt hämtade från forskning.</strong> Grafen är ett diskussionsunderlag och en syntes. Vissa punkter ligger nära publicerade forskningssammanställningar, medan andra är mer bedömningsbaserade.</p>
+    <p><strong>Nej. Alla värden i grafen är inte exakta värden direkt hämtade från forskning, och alla studier visar inte kausalitet.</strong> Grafen är ett diskussionsunderlag och en syntes. Vissa punkter ligger nära publicerade forskningssammanställningar, medan andra är mer bedömningsbaserade.</p>
 
     <div class="status-grid">
       <article class="status-card status-direct">
@@ -105,7 +115,7 @@
         </tr>
         <tr>
           <td>Tier 1–6 för varje metod</td>
-          <td>Nej. Det är en Slavin-inspirerad klassificering av kausal evidensstyrka.</td>
+          <td>Nej. Det är en Slavin-inspirerad klassificering av styrka för kausal tolkning.</td>
         </tr>
         <tr>
           <td>Felstaplar</td>
@@ -118,18 +128,18 @@
       </tbody>
     </table>
 
-    <p class="warning"><strong>Kort slutsats:</strong> grafen bygger delvis på publicerade forskningssammanställningar, men flera placeringar är förenklade bedömningar. Den ska användas som diskussionsunderlag, inte som exakt metaanalys.</p>
+    <p class="warning"><strong>Kort slutsats:</strong> grafen bygger delvis på publicerade forskningssammanställningar, men flera placeringar är förenklade bedömningar. Den visar inte att alla metoder säkert orsakar bättre resultat. Den ska användas som diskussionsunderlag, inte som exakt metaanalys.</p>
   </section>
 
   <section class="card">
-    <h2>Evidensnivåerna</h2>
+    <h2>Evidensstyrka för kausal tolkningerna</h2>
     <ol class="tiers">
-      <li><strong>Tier 1:</strong> Metaanalyser/systematiska översikter av randomiserade eller starka interventionsstudier.</li>
-      <li><strong>Tier 2:</strong> Randomiserade kontrollerade studier eller stark interventionsforskning.</li>
-      <li><strong>Tier 3:</strong> Kvasi-experiment och blandade interventioner.</li>
-      <li><strong>Tier 4:</strong> Longitudinella eller blandade observationsstudier.</li>
-      <li><strong>Tier 5:</strong> Tvärsnittsstudier och svagare korrelationsunderlag.</li>
-      <li><strong>Tier 6:</strong> Expertåsikter, teori, fallstudier eller saknat hållbart stöd.</li>
+      <li><strong>Tier 1:</strong> Metaanalyser/systematiska översikter av randomiserade eller starka interventionsstudier. Starkast stöd för kausal tolkning.</li>
+      <li><strong>Tier 2:</strong> Randomiserade kontrollerade studier eller stark interventionsforskning. Relativt starkt stöd för kausal tolkning.</li>
+      <li><strong>Tier 3:</strong> Kvasi-experiment och blandade interventioner. Kan ge visst stöd för kausal tolkning, men med fler möjliga felkällor.</li>
+      <li><strong>Tier 4:</strong> Longitudinella eller blandade observationsstudier. Visar ofta samband över tid, men inte säker kausalitet.</li>
+      <li><strong>Tier 5:</strong> Tvärsnittsstudier och svagare korrelationsunderlag. Visar främst korrelation.</li>
+      <li><strong>Tier 6:</strong> Expertåsikter, teori, fallstudier eller saknat hållbart stöd. Svagast stöd för kausal tolkning.</li>
     </ol>
   </section>
 
