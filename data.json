@@ -528,5 +528,57 @@
     "valueStatus": "Forskningsbaserat men uppskattat",
     "valueStatusShort": "Uppskattat",
     "valueStatusDetail": "Det finns skolbaserad MI-forskning och metaanalys, men grafens exakta d/g-värde är en försiktig syntes. Enskilda RCT-studier visar ibland högre effekter, men resultaten är blandade och kontextberoende."
+  },
+  {
+    "method": "Variationsteori",
+    "d": 0.2,
+    "tier": 4,
+    "studies": 30,
+    "type": "Other",
+    "note": "Teoridriven design av undervisning med fokus på kritiska aspekter och variation/invarians. Forskningsbas finns, men inget stabilt samlat d-värde.",
+    "source": "Kullberg et al. 2017; Björklund 2016",
+    "info": "Variationsteori handlar om att elever behöver få syn på kritiska aspekter av det som ska läras. Läraren designar exempel, kontraster och variation så att det viktiga blir möjligt att urskilja.",
+    "valueStatus": "Mer bedömningsbaserat / svagare datapunkt",
+    "valueStatusShort": "Bedömning",
+    "valueStatusDetail": "Variationsteori har forskningsstöd som teori och designprincip, men grafens d/g-värde är inte hämtat från en stabil metaanalys. Placeringen är därför en försiktig bedömning."
+  },
+  {
+    "method": "Learning Study",
+    "d": 0.25,
+    "tier": 4,
+    "studies": 25,
+    "type": "Other",
+    "note": "Kollegial undervisningsutveckling ofta kopplad till variationsteori. Lovande, men främst design-/fallstudier och mindre interventionsstudier.",
+    "source": "Kullberg et al. 2017; Learning Study-forskning",
+    "info": "Learning Study är en modell där lärare planerar, genomför, analyserar och reviderar undervisning tillsammans, ofta med variationsteori som teoretisk grund.",
+    "valueStatus": "Mer bedömningsbaserat / svagare datapunkt",
+    "valueStatusShort": "Bedömning",
+    "valueStatusDetail": "Det finns forskning om Learning Study, men inte ett tydligt stabilt d/g-värde jämförbart med EEF-punkter. Placeringen är en försiktig bedömning."
+  },
+  {
+    "method": "PLATO-baserad observation/feedback",
+    "d": 0.18,
+    "tier": 3,
+    "studies": 25,
+    "type": "Other",
+    "note": "PLATO-baserad observation/feedback bedöms här som professionell utvecklingsmetod. Det finns stöd för att PLATO mäter undervisningskvaliteter som är kopplade till elevresultat, men evidensen för PLATO-feedback som direkt orsakande intervention är mer indirekt.",
+    "source": "Grossman et al.; Cohen & Grossman; Kane & Staiger; Stanford CSET; PLATO-studier",
+    "info": "PLATO, Protocol for Language Arts Teaching Observation, är ett observationsprotokoll för att analysera kvaliteter i språk-/ELA-undervisning. Här bedöms PLATO som PLATO-baserad observation, återkoppling och professionell utveckling. Forskning visar att de kvaliteter PLATO mäter har samband med elevresultat, särskilt mer komplexa språk- och läsförståelseförmågor. Däremot är evidensen mer indirekt när det gäller om själva PLATO-feedbacken säkert orsakar bättre elevresultat.",
+    "valueStatus": "Forskningsbaserat men uppskattat",
+    "valueStatusShort": "Uppskattat",
+    "valueStatusDetail": "PLATO har starkare stöd som validerat observationsverktyg än som direkt elevintervention. Grafens d/g-värde är därför en försiktig syntes: PLATO mäter undervisningspraktiker som är kopplade till resultat, men RCT-liknande evidens för PLATO-baserad feedback som orsak till förbättrade elevresultat är svagare."
+  },
+  {
+    "method": "DBDM / Databaserat beslutsfattande",
+    "d": 0.17,
+    "tier": 3,
+    "studies": 40,
+    "type": "Other",
+    "note": "Data-Based Decision Making bedöms här som implementerat arbetssätt/intervention. Metaanalyser rapporterar små till måttliga positiva effekter, ofta beroende av design och implementering.",
+    "source": "Hoogland et al. 2016; Faber et al. 2023; van Geel et al. 2016; DBDM-översikter",
+    "info": "DBDM innebär att lärare och skolor systematiskt använder elevdata, testresultat, formativ bedömning och uppföljning för att justera undervisning och stödinsatser. Här bedöms DBDM som intervention/metod, inte bara som administrativ rutin.",
+    "valueStatus": "Forskningsbaserat men uppskattat",
+    "valueStatusShort": "Uppskattat",
+    "valueStatusDetail": "Det finns metaanalyser och interventionsstudier om dataanvändning, dataverktyg och DBDM. Effektstorleken i grafen är en försiktig syntes, eftersom effekten varierar mycket mellan upplägg och målgrupper."
   }
 ]
