@@ -556,6 +556,58 @@
     "valueStatusDetail": "Det finns forskning om Learning Study, men inte ett tydligt stabilt d/g-värde jämförbart med EEF-punkter. Placeringen är en försiktig bedömning."
   },
   {
+    "method": "Guidad upptäckt / guided discovery",
+    "d": 0.22,
+    "tier": 3,
+    "studies": 60,
+    "type": "Other",
+    "note": "Konstruktivistisk metod med lärarstöd, frågor, exempel och återkoppling. Starkare kandidat än ren upptäckande undervisning.",
+    "source": "Alfieri et al. 2011; Mayer 2004; Kirschner et al. 2006",
+    "info": "Elever får undersöka material, exempel eller problem, men läraren ger struktur, ledtrådar, begrepp, frågor och återkoppling så att eleverna inte lämnas att själva upptäcka allt från början.",
+    "valueStatus": "Forskningsbaserat men uppskattat",
+    "valueStatusShort": "Uppskattat",
+    "valueStatusDetail": "Det finns stöd för att guidade former av upptäckt fungerar bättre än ren, ostöttad upptäckt. Grafens d/g-värde är ett försiktigt typvärde, inte en exakt metaanalytisk konsensuspunkt."
+  },
+  {
+    "method": "Projektbaserat lärande",
+    "d": 0.18,
+    "tier": 4,
+    "studies": 50,
+    "type": "Other",
+    "note": "Längre elevaktiva projekt med planering, undersökning och produkt. Effekten beror starkt på tydliga mål, lärarstöd, delmål och återkoppling.",
+    "source": "Project-based learning-översikter; Learning sciences",
+    "info": "Elever bygger kunskap genom ett längre projekt där de undersöker en fråga, planerar arbetet och skapar något som visar vad de lärt sig. Det fungerar bäst när projektet är tydligt kopplat till ämnesmål och inte bara blir aktivitet.",
+    "valueStatus": "Mer bedömningsbaserat / svagare datapunkt",
+    "valueStatusShort": "Bedömning",
+    "valueStatusDetail": "Projektbaserat lärande är ett brett arbetssätt med varierande upplägg och utfall. Placeringen är därför en försiktig bedömning snarare än ett stabilt d/g-värde."
+  },
+  {
+    "method": "Autentiska uppgifter / authentic learning",
+    "d": 0.15,
+    "tier": 4.5,
+    "studies": 40,
+    "type": "Other",
+    "note": "Uppgifter kopplas till verkliga situationer och tillämpning. Lovande som designprincip, men svår att isolera som egen kausal intervention.",
+    "source": "Authentic learning-forskning; Learning sciences",
+    "info": "Elever arbetar med uppgifter som liknar verkliga situationer, till exempel att analysera ett samhällsproblem, skapa en produkt för en mottagare eller använda ämneskunskap i ett realistiskt sammanhang.",
+    "valueStatus": "Mer bedömningsbaserat / svagare datapunkt",
+    "valueStatusShort": "Bedömning",
+    "valueStatusDetail": "Autentiska uppgifter är ofta en designprincip inom projekt-, problem- och undersökande undervisning. Därför är den exakta placeringen mer osäker och bör tolkas som bedömningsbaserad."
+  },
+  {
+    "method": "Språkinriktad ämnesundervisning",
+    "d": 0.25,
+    "tier": 3.5,
+    "studies": 45,
+    "type": "Other",
+    "note": "Ämnesundervisning där läraren planerar explicit stöd för ämnesspråk, begrepp, samtal, läsning och skrivande. Effekten är sannolikt beroende av struktur, ämne och elevgrupp.",
+    "source": "Språk- och kunskapsutvecklande arbetssätt; EEF oral language/literacy guidance; SFL/genrepedagogik",
+    "info": "Språkinriktad ämnesundervisning innebär att elever lär sig ämnesinnehåll och ämnesspråk samtidigt. Läraren synliggör centrala begrepp, texttyper, samtalsmönster och skrivstrategier, och ger stöttning så att elever kan använda ett mer avancerat ämnesspråk.",
+    "valueStatus": "Forskningsbaserat men uppskattat",
+    "valueStatusShort": "Uppskattat",
+    "valueStatusDetail": "Det finns relevant forskning om språk- och kunskapsutvecklande undervisning, muntligt språk, literacy och ämnesspråk, men grafens exakta d/g-värde är en försiktig syntes snarare än en stabil metaanalytisk datapunkt."
+  },
+  {
     "method": "PLATO-baserad observation/feedback",
     "d": 0.18,
     "tier": 3,
